@@ -3,6 +3,7 @@
 ## Project Overview
 
 AeroPredict MLOps is an end-to-end Machine Learning pipeline project designed to simulate an aircraft predictive maintenance monitoring system. The project builds an automated anomaly detection ML system using Apache Airflow to orchestrate data generation, cleaning, feature engineering, model training, model evaluation, and saving. Furthermore, it utilizes an embedded FastAPI application with a live UI dashboard to instantly test real-time aircraft sensory data against the trained model algorithm to predict mechanical failure probability.
+
 <img width="1898" height="963" alt="Screenshot 2026-03-18 205959" src="https://github.com/user-attachments/assets/4e686bb1-a7ad-4d5a-9496-b0ede59c45ab" />
 
 ## System Architecture
@@ -87,6 +88,7 @@ Once the Airflow pipeline has run completely and generated the model artifacts l
 
 3. Open your browser to test live inference visually via the hosted dashboard:
    **[http://localhost:8000/](http://localhost:8000/)**
+   
 <img width="1917" height="967" alt="Screenshot 2026-03-18 210117" src="https://github.com/user-attachments/assets/030d5b4e-4ded-45ae-a23e-2bec6a63c2cd" />
 <img width="1918" height="957" alt="Screenshot 2026-03-18 210050" src="https://github.com/user-attachments/assets/c14c823a-8603-484c-b849-b96ab4eb0950" />
 
